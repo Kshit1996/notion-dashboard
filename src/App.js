@@ -1,25 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import Iframe from 'react-iframe'
+import Chart from './chart'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <Chart width={550} height={500} url={"https://plotly.com/~Kshit96/29"}/>
+        <Chart width={550} height={500} url={"https://plotly.com/~Kshit96/32"}/>
+        <Chart width={550} height={500} url={"https://plotly.com/~Kshit96/53"}/>
+        <Chart width={550} height={500} url={"https://plotly.com/~Kshit96/43"}/>
+        <Chart width={550} height={500} url={"https://plotly.com/~Kshit96/48"}/>
+        <Chart width={550} height={500} url={"https://plotly.com/~Kshit96/50"}/>
+
+
+
+        {/*<img*/}
+        {/*    src="https://plotly.com/~Kshit96/29.png?share_key=bR06bv6DeVlGhOKhzIejfP"*/}
+        {/*    alt="card-statuses"*/}
+        {/*    width="600"*/}
+        {/*    onError="this.onerror=null;this.src='https://plotly.com/404.png';"/>*/}
+      </div>
   );
 }
 
