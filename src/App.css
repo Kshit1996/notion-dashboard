@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar.navbar-expand.navbar-dark.bg-dark.fixed-top{
+  padding: 0px 0px 0px 0px;
+}
+
+.container-fluid{
+  padding-top: 50px;
+  padding-left: 0px;
+  padding-right: 0px
+}
+
+.navbar-brand{
+  padding: 0px;
+}
+
+h1,p{
+  padding: 8px 0px 8px 0px;
+  margin: 0px 0px 0px 0px
+}
