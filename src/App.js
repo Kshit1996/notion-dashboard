@@ -1,10 +1,10 @@
 import React from 'react';
-import Chart from './chart'
+import Chart from './components/chart'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {Container} from "react-bootstrap";
-import Introduction from "./Introduction";
-import Navigation from "./Navigation";
+import Introduction from "./components/Introduction";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (

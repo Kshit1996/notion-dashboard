@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './assets/GreyampLogo.png'
+import logo from '../assets/GreyampLogo.png'
 import {Navbar} from "react-bootstrap";
 
 export default function Navigation(props) {
